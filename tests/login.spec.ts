@@ -5,7 +5,7 @@ import LoginPage from "../pages/Login.page";
 import Env from "../utils/environment";
 import * as data from "../data/login.mock.json";
 
-test.describe("TC001", () => {
+test.describe("TC001 - Login testcase", () => {
   // my pages
   let login: LoginPage;
   let common: CommonFunctions;

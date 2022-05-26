@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 
-export default class LoginPage {
+export default class LogoutPage {
   // Creating page and locator instances.
   readonly page: Page;
   readonly getLogoutBtn: Locator;

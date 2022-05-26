@@ -6,7 +6,7 @@ import LogoutPage from "../pages/Logout.page";
 import Env from "../utils/environment";
 import * as data from "../data/login.mock.json";
 
-test.describe("TC001", () => {
+test.describe("TC001 - Logout testcase", () => {
   // my pages
   let login: LoginPage;
   let logout: LogoutPage;
